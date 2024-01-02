@@ -1,0 +1,13 @@
+# Session level packages for Serverless Spark Compute
+dependencies:
+  - python=3.8
+  - pip:
+    - protobuf==3.19.6
+    - azureml-featurestore==1.0.0
+    - azure-mgmt-authorization==3.0.0
+    - azure-cli
+    # Additional dependencies
+    - scikit-learn
+    - pandas
+    - python-dotenv
+name: fs_env

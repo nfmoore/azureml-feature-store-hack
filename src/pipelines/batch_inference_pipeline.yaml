@@ -1,0 +1,4 @@
+description: batch inference pipeline
+display_name: batch_inference
+experiment_name: batch_inference
+type: pipeline
