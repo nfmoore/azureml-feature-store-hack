@@ -1,0 +1,10 @@
+description: training pipeline
+display_name: training
+experiment_name: training
+type: pipeline
+
+inputs:
+  feature_retrieval_spec: # this will be used by the feature_retrieval_step. it expects a feature_retrieval_spec.yaml in the folder
+    mode: ro_mount
+    path: ../feature_retrieval_spec
+    type: uri_folder
